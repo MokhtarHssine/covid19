@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="459dp"
+        android:layout_height="291dp"
+        app:srcCompat="@drawable/symptomes"
+        tools:layout_editor_absoluteX="-24dp"
+        tools:layout_editor_absoluteY="-65dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="389dp"
+        android:layout_height="59dp"
+        android:text="Citez vos Symptomes :"
+        android:textColor="#B60A0A"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="288dp"
+        android:layout_height="35dp"
+        android:text="fiévre"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="288dp"
+        android:layout_height="38dp"
+        android:text="difficultés respiratoires"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="286dp"
+        android:layout_height="33dp"
+        android:text="toux"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="286dp"
+        android:layout_height="40dp"
+        android:text="mal de gorge"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="290dp"
+        android:layout_height="44dp"
+        android:text="fatigue"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:text="maux de tete"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="293dp"
+        android:layout_height="45dp"
+        android:text="douleur musculaire"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="suivant"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="657dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
