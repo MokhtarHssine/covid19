@@ -18,7 +18,7 @@
         android:id="@+id/textView13"
         android:layout_width="402dp"
         android:layout_height="128dp"
-        android:text="votre pourcentage d'infection au coronavirus est :"
+        android:text="@string/pourcourona"
         android:textColor="#B60A0A"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -31,7 +31,7 @@
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=" score                                               %"
+        android:text="@string/score"
         tools:layout_editor_absoluteX="54dp"
         tools:layout_editor_absoluteY="341dp" />
 
@@ -50,7 +50,7 @@
         android:textColor="#FF03DAC5"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:text="En se basant sur votre évaluation récente de votre état de santé,  Nous voulons vous assurer que vous êtes en bonne santé, veuillez respecter les règles de protection"
+        android:text="@string/etat_normal"
         tools:layout_editor_absoluteX="22dp"
         tools:layout_editor_absoluteY="606dp" />
 

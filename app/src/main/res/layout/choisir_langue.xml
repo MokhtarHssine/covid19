@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="411dp"
+        android:layout_height="193dp"
+        app:srcCompat="@drawable/covid_19"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="311dp"
+        android:layout_height="69dp"
+        android:text="@string/langue"
+        android:textColor="#B60A0A"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="162dp"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/francais"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="159dp"
+        android:layout_height="54dp"
+        android:text="@string/fran"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="183dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/en"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="162dp"
+        android:layout_height="57dp"
+        android:text="@string/eng"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">COVID-19</string>
+    <string name="stat">statistical</string>
+    <string name="nbrtotale">Total number of patients:</string>
+    <string name="paysinf">paid infected in total:</string>
+    <string name="date">Dated</string>
+    <string name="ptgueri">Total Cured Patients:</string>
+    <string name="ptgrave">Patients in serious condition:</string>
+    <string name="dectot">Total deaths:</string>
+    <string name="test">test yourself</string>
+    <string name="symp">List your Symptoms:</string>
+    <string name="fiévre">fever</string>
+    <string name="difres">breathing difficulties</string>
+    <string name="toux">cough</string>
+    <string name="malgor">sore throat</string>
+    <string name="fatigue">tired</string>
+    <string name="mautet">headache</string>
+    <string name="dolmus">muscle pain</string>
+    <string name="retourn">back</string>
+    <string name="sui">next</string>
+    <string name="pourcourona">your percentage of coronavirus infection is:</string>
+    <string name="score">score</string>
+    <string name="descetatdouteux">Based on your recent assessment of your condition Your condition is not serious, but it is recommended that you stay home and monitor your health</string>
+    <string name="etat_normal">Based on your recent assessment of your health condition, We want to make sure you are in good health, please follow the protection rules</string>
+    <string name="etatgrave">Based on your recent assessment of your medical condition, it is very possible that you are infected with the coronavirus. Please take a test within 24 hours</string>
+    <string name="formulaire"> Start filling out this form:</string>
+    <string name="nom">Last name :</string>
+    <string name="date_nai">Date of birth:</string>
+    <string name="genre">Gender</string>
+    <string name="homme">Male</string>
+    <string name="femme">Femmale</string>
+    <string name="longueur">height</string>
+    <string name="poids">Weight</string> <string name=""></string
+</resources>

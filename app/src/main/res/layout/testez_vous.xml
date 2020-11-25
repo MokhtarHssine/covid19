@@ -44,7 +44,7 @@
                     android:id="@+id/textView10"
                     android:layout_width="182dp"
                     android:layout_height="39dp"
-                    android:text="Date de naissence :"
+                    android:text="@string/date_nai"
                     tools:layout_editor_absoluteX="0dp"
                     tools:layout_editor_absoluteY="381dp" />
 
@@ -58,7 +58,7 @@
                     android:id="@+id/radioButton"
                     android:layout_width="129dp"
                     android:layout_height="45dp"
-                    android:text="female"
+                    android:text="@string/femme"
                     tools:layout_editor_absoluteX="233dp"
                     tools:layout_editor_absoluteY="483dp" />
 
@@ -66,7 +66,7 @@
                     android:id="@+id/radioButton2"
                     android:layout_width="115dp"
                     android:layout_height="43dp"
-                    android:text="male"
+                    android:text="@string/homme"
                     tools:layout_editor_absoluteX="100dp"
                     tools:layout_editor_absoluteY="483dp" />
 
@@ -74,7 +74,7 @@
                     android:id="@+id/textView12"
                     android:layout_width="91dp"
                     android:layout_height="48dp"
-                    android:text="Genre :"
+                    android:text="@string/genre"
                     tools:layout_editor_absoluteX="5dp"
                     tools:layout_editor_absoluteY="483dp" />
 
@@ -84,7 +84,7 @@
                     android:layout_height="61dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Name :"
+                    android:text="@string/nom"
                     tools:layout_editor_absoluteX="0dp"
                     tools:layout_editor_absoluteY="320dp" />
 
@@ -103,7 +103,7 @@
                     android:layout_height="47dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Height :"
+                    android:text="@string/longueur"
                     tools:layout_editor_absoluteY="539dp" />
 
                 <EditText
@@ -112,14 +112,14 @@
                     android:layout_height="50dp"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:text="Weight :"
+                    android:text="@string/poids"
                     tools:layout_editor_absoluteY="592dp" />
 
                 <Button
                     android:id="@+id/button6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="back"
+                    android:text="@string/retourn"
                     tools:layout_editor_absoluteX="58dp"
                     tools:layout_editor_absoluteY="654dp" />
 
@@ -127,7 +127,7 @@
                     android:id="@+id/button7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="suivant"
+                    android:text="@string/sui"
                     tools:layout_editor_absoluteX="233dp"
                     tools:layout_editor_absoluteY="654dp" />
 
@@ -163,7 +163,7 @@
             android:id="@+id/textView9"
             android:layout_width="420dp"
             android:layout_height="76dp"
-            android:text="Commencer à remplir ce formulaire :"
+            android:text="@string/formulaire"
             android:textColor="#B60A0A"
             android:textSize="20sp"
             android:textStyle="bold"

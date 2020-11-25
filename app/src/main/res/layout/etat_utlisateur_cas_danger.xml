@@ -18,7 +18,7 @@
         android:id="@+id/textView13"
         android:layout_width="402dp"
         android:layout_height="128dp"
-        android:text="votre pourcentage d'infection au coronavirus est :"
+        android:text="@string/pourcourona"
         android:textColor="#B60A0A"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -31,7 +31,7 @@
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=" score                                               %"
+        android:text="@string/score"
         tools:layout_editor_absoluteX="54dp"
         tools:layout_editor_absoluteY="341dp" />
 
@@ -47,7 +47,7 @@
         android:id="@+id/textView15"
         android:layout_width="350dp"
         android:layout_height="109dp"
-        android:text="En se basant sur votre évaluation récente de votre état de santé, il est fort possible que vous etes infecté au coronavirus .             Veuillez passer un test  dans les 24 heures"
+        android:text="@string/etatgrave"
         android:textColor="#B60A0A"
         android:textSize="18sp"
         android:textStyle="bold"

@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name" translatable="false">COVID-19</string>
+    <string name="stat">statistique</string>
+    <string name="nbrtotale">Nombre de malades au total :</string>
+    <string name="paysinf">payé inféctés au total :</string>
+    <string name="date"> Date</string>
+    <string name="ptgueri">Patients Guéri au total :</string>
+    <string name="ptgrave">Patients en état grave:</string>
+    <string name="dectot">Décédes au total :</string>
+    <string name="test">testez-vous</string>
+    <string name="symp">Citez vos Symptomes :</string>
+    <string name="fiévre">fiévre</string>
+    <string name="difres">difficultés respiratoires</string>
+    <string name="toux">toux</string>
+    <string name="malgor">mal de gorge</string>
+    <string name="fatigue">fatigue</string>
+    <string name="mautet">maux de tete</string>
+    <string name="dolmus">douleur musculaire</string>
+    <string name="retourn">retourner</string>
+    <string name="sui">suivant</string>
+    <string name="pourcourona">votre pourcentage d'infection au coronavirus est :</string>
+    <string name="score">score</string>
+    <string name="descetatdouteux">En se basant sur votre évaluation récente de votre état de santé Votre état de santé n'est pas grave, mais il est recommandé de rester à la maison et de surveiller votre santé</string>
+    <string name="etat_normal">En se basant sur votre évaluation récente de votre état de santé,  Nous voulons vous assurer que vous êtes en bonne santé, veuillez respecter les règles de protection</string>
+    <string name="etatgrave">En se basant sur votre évaluation récente de votre état de santé, il est fort possible que vous etes infecté au coronavirus .             Veuillez passer un test  dans les 24 heures</string>
+    <string name="formulaire"> Commencer à remplir ce formulaire : </string>
+    <string name="nom">Nom :</string>
+    <string name="date_nai">Date de naissence :</string>
+    <string name="genre">Genre</string>
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+    <string name="longueur">Longueur</string>
+    <string name="poids">Poids</string>
+    <string name="langue">choisir la langue:</string>
+    <string name="fran">Francais</string>
+    <string name="eng">Anglais</string>
+
+
 </resources>
