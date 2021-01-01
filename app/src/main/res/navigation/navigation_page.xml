@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_acceuil"
+        android:label="@string/menu_accueil"
+        tools:layout="@layout/fragement_accueil" />
+
+    <fragment
+        android:id="@+id/nav_actuality"
+        android:label="@string/menu_actuality"
+        tools:layout="@layout/fragement_actuality" />
+    <fragment
+        android:id="@+id/nav_symptomes"
+        android:label="@string/menu_symptome"
+        tools:layout="@layout/fragement_citez_symptomes" />
+
+    <fragment
+        android:id="@+id/nav_center"
+        android:label="@string/menu_center"
+        tools:layout="@layout/fragement_center" />
+
+    <fragment
+        android:id="@+id/nav_update"
+        android:label="@string/menu_update"
+        tools:layout="@layout/fragement_mise_jour_profile" />
+
+    <fragment
+        android:id="@+id/nav_deconnect"
+        android:label="@string/menu_deconnection"
+        tools:layout="@layout/fragement_deconnection" />
+</navigation>

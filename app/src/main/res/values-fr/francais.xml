@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources >
     <string name="app_name" translatable="false">COVID-19</string>
     <string name="stat">statistique</string>
@@ -47,5 +48,6 @@
     <string name="menu_deconnection">Se déconnecter</string>
     <string name="menu_symptome">Symptomes</string>
     <string name="menu_update">Mise a jour compte </string>
+
 
 </resources>

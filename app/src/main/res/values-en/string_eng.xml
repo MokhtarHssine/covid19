@@ -31,5 +31,21 @@
     <string name="homme">Male</string>
     <string name="femme">Femmale</string>
     <string name="longueur">height</string>
-    <string name="poids">Weight</string> <string name=""></string
+    <string name="poids">Weight</string>
+    <string name="langue">choose langauge:</string>
+    <string name="fran">French</string>
+    <string name="eng">English</string>
+    <string name="val">Validate</string>
+    <string name="anul">Annuler</string>
+    <string name="s_authentifier">connect</string>
+    <string name="compte">Create an account</string>
+    <string name="oublier"> forget password ?</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_accueil">Accueil</string>
+    <string name="menu_center">Centers</string>
+    <string name="menu_actuality">Actuality</string>
+    <string name="menu_compte">my account</string>
+    <string name="menu_deconnection">deconnection</string>
+    <string name="menu_symptome">Symptomes</string>
+    <string name="menu_update">update account </string>
 </resources>
