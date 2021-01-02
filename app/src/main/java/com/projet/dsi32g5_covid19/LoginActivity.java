@@ -33,6 +33,7 @@ public class LoginActivity extends Activity {
                 String StoredPassword = db.getRegister(username);
                 if (password.equals(StoredPassword)) {
                     Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
+                    startActivity(new Intent(getApplicationContext(), Accueil.class));
                 } else {
                     Toast.makeText(getApplicationContext(), "Username/Password incorrect", Toast.LENGTH_LONG).show();
                     user.setText("");

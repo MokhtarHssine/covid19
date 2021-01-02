@@ -2,35 +2,41 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    android:id="@+id/navigation_page"
+    app:startDestination="@+id/nav_acceuil">
 
     <fragment
         android:id="@+id/nav_acceuil"
+        android:name="com.projet.dsi32g5_covid19.accueil.AccueilFragment"
         android:label="@string/menu_accueil"
         tools:layout="@layout/fragement_accueil" />
 
     <fragment
         android:id="@+id/nav_actuality"
+        android:name="com.projet.dsi32g5_covid19.actualite.ActualiteFragment"
         android:label="@string/menu_actuality"
         tools:layout="@layout/fragement_actuality" />
     <fragment
         android:id="@+id/nav_symptomes"
+        android:name="com.projet.dsi32g5_covid19.symptome.SymptomeFragment"
         android:label="@string/menu_symptome"
         tools:layout="@layout/fragement_citez_symptomes" />
 
     <fragment
         android:id="@+id/nav_center"
+        android:name="com.projet.dsi32g5_covid19.center.CenterFragment"
         android:label="@string/menu_center"
         tools:layout="@layout/fragement_center" />
 
     <fragment
         android:id="@+id/nav_update"
+        android:name="com.projet.dsi32g5_covid19.update.UpdateProfil"
         android:label="@string/menu_update"
         tools:layout="@layout/fragement_mise_jour_profile" />
 
     <fragment
         android:id="@+id/nav_deconnect"
+        android:name="com.projet.dsi32g5_covid19.deconnection.DeconnectionFragment"
         android:label="@string/menu_deconnection"
         tools:layout="@layout/fragement_deconnection" />
 </navigation>

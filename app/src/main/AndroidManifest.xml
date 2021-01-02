@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".LoginActivity"/>
         <activity android:name=".RegisterActivity"/>
+        <activity
+            android:name=".Accueil"
+            android:label="@string/menu_accueil"
+            android:theme="@style/Theme.COVID19.NoActionBar"></activity>
 
     </application>
 
