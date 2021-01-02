@@ -14,14 +14,14 @@ public class DataBaseHelper extends SQLiteOpenHelper {
     }
 
     // Contacts table name
-    private static final String TABLE_REGISTER = "register";
-    public static final String KEY_ID = "id";
-    public static final String KEY_FIRST_NAME = "first_name";
-    public static final String KEY_lAST_NAME = "last_name";
-    public static final String KEY_EMAIL_ID = "email_id";
-    public static final String KEY_DATE = "date_naiss";
-    public static final String KEY_PASSWORD = "password";
-    public static final String CREATE_TABLE = "CREATE TABLE " + TABLE_REGISTER + "("
+    private final String TABLE_REGISTER = "register";
+    private final String KEY_ID = "id";
+    private final String KEY_FIRST_NAME = "first_name";
+    private final String KEY_lAST_NAME = "last_name";
+    private final String KEY_EMAIL_ID = "email_id";
+    private final String KEY_DATE = "date_naiss";
+    private final String KEY_PASSWORD = "password";
+    private final String CREATE_TABLE = "CREATE TABLE " + TABLE_REGISTER + "("
             + KEY_ID + " INTEGER PRIMARY KEY," + KEY_FIRST_NAME + " TEXT," + KEY_lAST_NAME
             + " TEXT," + KEY_EMAIL_ID + " TEXT,"
             + KEY_DATE + " TEXT," + KEY_PASSWORD + " TEXT " + ")";
@@ -59,21 +59,60 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         db.close(); // Closing database connection
     }
 
-    //code to get a register
-    public String getRegister(String username) {
-        String password = null;
+    public RegisterData getRegister(String userid) {
+        RegisterData reg = null;
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.query(TABLE_REGISTER, null, "email_id=?",
-                new String[]{username}, null, null, null, null);
+                new String[]{userid}, null, null, null, null);
         if (cursor.getCount() < 1) {
             cursor.close();
-            return "Not Exist";
         } else if (cursor.getCount() >= 1 && cursor.moveToFirst()) {
-
-            password = cursor.getString(cursor.getColumnIndex(KEY_PASSWORD));
+            reg = new RegisterData(
+                    cursor.getInt(cursor.getColumnIndex(KEY_ID)),
+                    cursor.getString(cursor.getColumnIndex(KEY_FIRST_NAME)),
+                    cursor.getString(cursor.getColumnIndex(KEY_lAST_NAME)),
+                    cursor.getString(cursor.getColumnIndex(KEY_EMAIL_ID)),
+                    cursor.getString(cursor.getColumnIndex(KEY_PASSWORD)),
+                    cursor.getString((cursor.getColumnIndex(KEY_DATE)))
+            );
             cursor.close();
-
         }
-        return password;
+        return reg;
+    }
+
+    //code to get a register
+    public boolean updateData(String id, String firstName, String lastName, String date) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(KEY_FIRST_NAME, firstName);
+        contentValues.put(KEY_lAST_NAME, lastName);
+        contentValues.put(KEY_DATE, date);
+        db.update(TABLE_REGISTER, contentValues, "email_id=?", new String[]{id});
+        return true;
+    }
+
+    public String getKeylastName() {
+        return KEY_lAST_NAME;
+    }
+
+    public String getKeyEmailId() {
+        return KEY_EMAIL_ID;
+    }
+
+    public String getKeyFirstName() {
+        return KEY_FIRST_NAME;
+    }
+
+    public String getKeyId() {
+        return KEY_ID;
+    }
+
+    public String getKeyDate() {
+        return KEY_DATE;
+    }
+
+    public String getKeyPassword() {
+        return KEY_PASSWORD;
     }
 }
+

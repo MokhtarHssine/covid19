@@ -24,7 +24,7 @@
         android:textStyle="bold"></TextView>
 
     <EditText
-        android:id="@+id/editfirstname"
+        android:id="@+id/editlastname"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -37,7 +37,7 @@
 
 
     <EditText
-        android:id="@+id/editlastname"
+        android:id="@+id/editfirstname"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"

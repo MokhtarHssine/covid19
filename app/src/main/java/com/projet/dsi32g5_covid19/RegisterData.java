@@ -14,13 +14,13 @@ public class RegisterData {
     }
 
     // constructor
-    public RegisterData(int id, String first_name, String last_name, String email_id, String sexe, String DateNaissance) {
+    public RegisterData(int id, String first_name, String last_name, String email_id, String password, String dateNaissance) {
         this._id = id;
         this.first_name = first_name;
         this.last_name = last_name;
         this.email_id = email_id;
-        this.dateNaissance = DateNaissance;
-        this.sexe = sexe;
+        this.dateNaissance = dateNaissance;
+        this.password = password;
     }
 
     // getting password
