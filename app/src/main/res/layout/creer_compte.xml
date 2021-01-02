@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backi">
+    android:background="@drawable/backi"
+    tools:context=".RegisterActivity">
 
 
     <TextView
@@ -84,7 +85,7 @@
             android:textSize="20dp"
             ></TextView>
         <TextView
-            android:id="@+id/editmobileno"
+            android:id="@+id/date_naiss"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ems="8"
