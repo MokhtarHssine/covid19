@@ -45,7 +45,7 @@
     <string name="menu_center">Centers</string>
     <string name="menu_actuality">Actuality</string>
     <string name="menu_compte">my account</string>
-    <string name="menu_deconnection">deconnection</string>
+    <string name="menu_deconnection">log out</string>
     <string name="menu_symptome">Symptomes</string>
     <string name="menu_update">update account </string>
 </resources>
