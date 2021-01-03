@@ -1,4 +1,4 @@
-<resources >
+<resources>
     <string name="app_name" translatable="false">COVID-19</string>
     <string name="stat">statistique</string>
     <string name="nbrtotale">Nombre de malades au total :</string>
@@ -47,5 +47,22 @@
     <string name="menu_deconnection">Se déconnecter</string>
     <string name="menu_symptome">Symptomes</string>
     <string name="menu_update">Mise a jour compte </string>
+    <string-array name="Titles">
+        <item>Labo Fendri Hatem </item>
+        <item>Labo Besbes Makram  </item>
+        <item>Labo Triki Walid </item>
+        <item>Labo Makdouli Abdelaziz </item>
+        <item>Labo Ayari </item>
+        <item>Labo Khadhar</item>
+    </string-array>
+    <string-array name="locals">
+        <item>8 avenue de carthage,Arianna</item>
+        <item>Rue Ariha, Sfax</item>
+        <item> Rue Micipsa El Menzah 1082, Tunis </item>
+        <item> Polyclinique Nefzaoua Avenue Elnalout ,kebili </item>
+        <item>Rue Abdelsalem Dimessi Impasse numero 1، Nabeul‎ 8000</item>
+        <item>Av Habib Bourguiba 8000 Nabeul</item>
+    </string-array>
+
 
 </resources>
